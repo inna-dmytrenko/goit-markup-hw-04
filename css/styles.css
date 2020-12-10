@@ -121,6 +121,8 @@
     }
     .icon {
       margin-right: 10px;
+      width: 16px;
+      height: 16px
     }
    
     .link {
@@ -356,6 +358,7 @@
       height: 44px;
       background: #ffffff;
       border-radius: 50%;
+      
     }
     .social-list__link:hover,
     .social-list__link:focus {
@@ -370,6 +373,7 @@
       width: 20px;
       height: 20px;
       fill: #AFB1B8;
+
     }
 
     /*    -------------------------------------------Client------------  */
@@ -421,7 +425,7 @@
 
     .client {
       padding-top: 94px;
-      padding-bottom: 192px;
+      padding-bottom: 94px;
     }
     /*    ---------------------------------------- Footer */
     .footer__adrress a{
@@ -495,18 +499,29 @@
       border-radius: 50%;
       margin-right: 10px;
     }
+    .footer__icon {
+      width: 20px;
+      height: 20px;
+      fill: #AFB1B8;
+
+    }
+
+    .footer__social-link:hover .footer__icon,
+    .footer__icon:focus  .footer__icon {
+      fill:#ffffff;
+    }
+      
     .footer__social-link:hover,
     .footer__social-link:focus {
       background: #2196F3;
+      
+     
     }
     .footer__social-list {
       display: flex;
       justify-content: space-between;
     }
-    .social-list__icon {
-      fill: #ffffff;
-    }
-    
+      
        /* -----------------------Catalog-------------- */
     .catalog__btn {
       font-family: 'Roboto', sans-serif;
